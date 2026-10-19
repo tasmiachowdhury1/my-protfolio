@@ -6,9 +6,11 @@
 
 :root {
   --background: #ffffff;
-  --soft-pink: #faf2f2;
+  --soft-pink: #fdced7;
+  --pink: #fc8aa0;
   --light-pink: #ffb7c5;
   --green: #d5f3d8;
+  --deep: #fd88a0;
 }
 
 @theme inline {
@@ -20,7 +22,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #FDF8F5;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
